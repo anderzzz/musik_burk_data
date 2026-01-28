@@ -7,4 +7,5 @@ I detta repo finns data användbart för MusikBurk.
 Hyllor kan exporteras som Zip-filer, vilka senare kan importeras. En samling ljudklipp kan därför delas. 
 
 | Filnamn | Beskrivning |
-| AAA     | Foobar|
+| ------- | ----------- |
+| trummor_bas_v0.2.0.zip | Grunläggande och korta klipp (~10 stycken) för ett aukustiskt trumset |
