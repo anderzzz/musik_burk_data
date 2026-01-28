@@ -1,5 +1,5 @@
 # MusikBurk Data
-MusikBurk är en app för kreativ ljudkonstruktion. Det är en privat app, see XXX
+MusikBurk är en app för kreativ ljudkonstruktion. Det är en privat app, see [detta repo.](https://github.com/anderzzz/musik_burk)
 
 I detta repo finns data användbart för MusikBurk.
 
