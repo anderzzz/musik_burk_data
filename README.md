@@ -8,4 +8,5 @@ Hyllor kan exporteras som Zip-filer, vilka senare kan importeras. En samling lju
 
 | Filnamn | Beskrivning |
 | ------- | ----------- |
-| trummor_bas_v0.2.0.zip | Grunläggande och korta klipp (~10 stycken) för ett aukustiskt trumset |
+| trummor_bas_v0.2.0.zip | Grundläggande och korta klipp (~10 stycken) för ett aukustiskt trumset |
+| gitarr-orgel-ackord.zip | Tolv ackord med gitarr (2 typer) och elorgel, kort och lang |
