@@ -1,0 +1,142 @@
+{
+  "format": "musikburk-patch",
+  "format_version": 1,
+  "exported_at": "2026-02-22T08:41:04.154Z",
+  "node_type_versions": {
+    "saw": 1,
+    "square": 1,
+    "mixer": 1,
+    "moog": 1,
+    "comb_filter": 1,
+    "filter_lowpass": 1,
+    "output": 1
+  },
+  "patch": {
+    "name": "Elorgel",
+    "description": "Enkel elorgel med lätt vibrato",
+    "tags": [],
+    "duration_ms": 2000,
+    "nodes": [
+      {
+        "id": "seed-0",
+        "node_type": "seed",
+        "subtype": "saw",
+        "position_x": 0,
+        "position_y": 0,
+        "params": {
+          "frequency": 113.32624602040697,
+          "amplitude": 0.6
+        }
+      },
+      {
+        "id": "seed-1",
+        "node_type": "seed",
+        "subtype": "square",
+        "position_x": 0,
+        "position_y": 70,
+        "params": {
+          "frequency": 117.0650925558884,
+          "amplitude": 0.4
+        }
+      },
+      {
+        "id": "transform-1770045386433",
+        "node_type": "transform",
+        "subtype": "mixer",
+        "position_x": 20,
+        "position_y": 32,
+        "params": {
+          "balance": 0.4
+        }
+      },
+      {
+        "id": "transform-1770045436452",
+        "node_type": "transform",
+        "subtype": "moog",
+        "position_x": 182.6666259765625,
+        "position_y": 31,
+        "params": {
+          "cutoff": 1220.1980810564369,
+          "resonance": 0.27
+        }
+      },
+      {
+        "id": "transform-1770045467363",
+        "node_type": "transform",
+        "subtype": "comb_filter",
+        "position_x": 20,
+        "position_y": 136,
+        "params": {
+          "delay_ms": 3.5,
+          "feedback": 0.4,
+          "mix": 0.65,
+          "sweep_rate": 10,
+          "sweep_depth": 0.05,
+          "inverted": false
+        }
+      },
+      {
+        "id": "transform-1770045893559",
+        "node_type": "transform",
+        "subtype": "filter_lowpass",
+        "position_x": 187.6666259765625,
+        "position_y": 134,
+        "params": {
+          "cutoff": 1376.2139552884237
+        }
+      },
+      {
+        "id": "output-node",
+        "node_type": "output",
+        "subtype": "output",
+        "position_x": 500,
+        "position_y": 150,
+        "params": {}
+      }
+    ],
+    "edges": [
+      {
+        "id": "edge-1770045388227",
+        "from_node": "seed-1",
+        "from_port": 0,
+        "to_node": "transform-1770045386433",
+        "to_port": 1
+      },
+      {
+        "id": "edge-1770045389938",
+        "from_node": "seed-0",
+        "from_port": 0,
+        "to_node": "transform-1770045386433",
+        "to_port": 0
+      },
+      {
+        "id": "edge-1770045438019",
+        "from_node": "transform-1770045386433",
+        "from_port": 0,
+        "to_node": "transform-1770045436452",
+        "to_port": 0
+      },
+      {
+        "id": "edge-1770045470212",
+        "from_node": "transform-1770045436452",
+        "from_port": 0,
+        "to_node": "transform-1770045467363",
+        "to_port": 0
+      },
+      {
+        "id": "edge-1770045895268",
+        "from_node": "transform-1770045467363",
+        "from_port": 0,
+        "to_node": "transform-1770045893559",
+        "to_port": 0
+      },
+      {
+        "id": "edge-1770045896982",
+        "from_node": "transform-1770045893559",
+        "from_port": 0,
+        "to_node": "output-node",
+        "to_port": 0
+      }
+    ]
+  }
+}
