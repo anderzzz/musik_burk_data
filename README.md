@@ -17,6 +17,7 @@ Shelf exports are `.zip` files. Import them via **Hyllan → Import** in MusikBu
 |------|----------|
 | `musik_burk_trummor.zip` | ~15 short clips covering a basic acoustic drum kit (kick, snare, hi-hat, cowbell etc.) |
 | `space_guitar_notes.zip` | Individual notes played on a space-guitar synthesizer, spanning several octaves |
+| `acoustic guitar.zip` | Individual notes played on an acoustic guitar, synthesized in part with Karplus-Strong |
 | `electrical_organ.zip` | Individual notes played with electrical organ synthesizer (10 seconds duration), using Moog filter and Comb filters |
 
 ### How to download a zip file
