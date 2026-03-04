@@ -15,10 +15,9 @@ Shelf exports are `.zip` files. Import them via **Hyllan → Import** in MusikBu
 
 | File | Contents |
 |------|----------|
-| `trummor_bas_v0.2.0.zip` | ~10 short clips covering a basic acoustic drum kit (kick, snare, hi-hat, etc.) |
-| `gitarr-orgel-ackord.zip` | 12 chords played on acoustic guitar (two voicings) and electric organ, in both short and long versions |
+| `musik_burk_trummor.zip` | ~15 short clips covering a basic acoustic drum kit (kick, snare, hi-hat, cowbell etc.) |
 | `space_guitar_notes.zip` | Individual notes played on a space-guitar synthesizer, spanning several octaves |
-| `trum_slingor.zip` | Ready-to-use drum loops |
+| `electrical_organ.zip` | Individual notes played with electrical organ synthesizer (10 seconds duration), using Moog filter and Comb filters |
 
 ### How to download a zip file
 
