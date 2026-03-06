@@ -1,62 +1,69 @@
-# MusikBurk Data
+<p align="center">
+  <img src="https://raw.githubusercontent.com/anderzzz/musik_burk/main/site/assets/MusikBurk_full_logo_2.png" alt="MusikBurk" width="480">
+</p>
 
-This repository is the public companion to [MusikBurk](https://github.com/anderzzz/musik_burk), a kid-friendly local music playbox for recording, collecting, and mixing audio samples.
-
-Here you will find:
-- **Shelf collections** — ready-made sample libraries you can import directly into MusikBurk
-- **Nursery patches** — synthesizer setups for the node-based Nursery (Plantskolan) view
-- **Issue tracker** — file bug reports and feature requests in the [Issues tab](https://github.com/anderzzz/musik_burk_data/issues)
+<p align="center">
+  <em>A kid-friendly, local-first music playbox for recording, collecting, and mixing audio samples.</em>
+</p>
 
 ---
 
-## Shelf Collections (`hyllan_zipped/`)
+This is the public data companion to [MusikBurk](https://github.com/anderzzz/musik_burk). It contains ready-made content you can drop straight into the app — no setup beyond importing.
 
-Shelf exports are `.zip` files. Import them via **Hyllan → Import** in MusikBurk to add the samples to your local library.
+MusikBurk ships without built-in sounds by design (keeping the installer small and the app private). These packs are the cure for that cold start.
 
-| File | Contents |
+**What's here:**
+
+- [Shelf collections](#-shelf-collections) — sample libraries importable into the Library (Hyllan) view
+- [Nursery patches](#-nursery-patches) — synthesizer presets for the node-based Nursery (Plantskolan) view
+- [Issues](#-reporting-issues) — bug reports and feature requests
+
+---
+
+## 🎵 Shelf Collections (`hyllan_zipped/`)
+
+Shelf exports are `.zip` files. Import them via **Library → Import** in MusikBurk. Each pack appears as a set of named, categorised clips ready to use in the Workshop, Drum Studio, or Mixer.
+
+| Pack | Contents |
 |------|----------|
-| `musik_burk_trummor.zip` | ~15 short clips covering a basic acoustic drum kit (kick, snare, hi-hat, cowbell etc.) |
-| `space_guitar_notes.zip` | Individual notes played on a space-guitar synthesizer, spanning several octaves |
-| `acoustic guitar.zip` | Individual notes played on an acoustic guitar, synthesized in part with Karplus-Strong |
-| `electrical_organ.zip` | Individual notes played with electrical organ synthesizer (10 seconds duration), using Moog filter and Comb filters |
+| `musik_burk_trummor.zip` | ~15 short clips covering a basic acoustic drum kit — kick, snare, hi-hat, cowbell, and more. A good starting point for Drum Studio. |
+| `space_guitar_notes.zip` | Individual notes of a space-guitar synthesizer spanning several octaves. Works well as a melodic instrument mapped across keys. |
+| `acoustic guitar.zip` | Individual notes of an acoustic guitar, synthesized in part with Karplus-Strong physical modelling. |
+| `electrical_organ.zip` | 10-second sustaining notes from an electric organ synthesizer built with a Moog filter and Comb filters. Rich, harmonic texture. |
 
-### How to download a zip file
+### Downloading a single zip
 
-1. Click the file name in the table above (or navigate to `hyllan_zipped/` in the file list).
-2. On the file page, click the **download icon** (⬇) in the top-right corner, labelled *"Download raw file"*.
-3. Save the `.zip` somewhere on your computer.
-4. Open MusikBurk, go to **Hyllan**, and choose **Import** to load the collection.
+1. Navigate to `hyllan_zipped/` in the file list above and click the file name.
+2. Click the **download icon** (⬇) in the top-right corner, labelled *"Download raw file"*.
+3. Save the `.zip` anywhere on your computer.
+4. Open MusikBurk, go to **Library**, and choose **Import**.
 
-> **Do not use** *"Download ZIP"* from the green *Code* button — that downloads the entire repository, not a single file.
+> **Avoid** the green *Code → Download ZIP* button — that downloads the entire repository, not a single pack.
 
 ---
 
-## Nursery Patches (`plantskolan_procedures/`)
+## 🌱 Nursery Patches (`plantskolan_procedures/`)
 
-Nursery patches are plain JSON files (`.musikburk-patch.json`). Import them via **Plantskolan → Load patch** in MusikBurk.
+Nursery patches are plain JSON files (`.musikburk-patch.json`). They describe a synthesizer node graph — oscillators, noise sources, and filters wired together. Import them via **Nursery → Load patch**.
 
-| File | Description |
-|------|-------------|
-| `elorgel.musikburk-patch.json` | Simple electric organ with light vibrato — a saw + square oscillator chain through a Moog filter |
+| Patch | Description |
+|-------|-------------|
+| `elorgel.musikburk-patch.json` | A simple electric organ with light vibrato — a sawtooth and square oscillator chain routed through a Moog filter. |
 
-### How to use a patch file
+### Using a patch file
 
-**Option A — Download the file**
+**Option A — Download**
 
-1. Click the file name in the table above.
-2. Click **Download raw file** (⬇) in the top-right corner.
-3. In MusikBurk, open **Plantskolan** and choose **Load patch**, then select the downloaded file.
+1. Click the file name above, then **Download raw file** (⬇).
+2. In MusikBurk, open **Nursery** and choose **Load patch**, then select the file.
 
 **Option B — Copy and paste**
 
-Because patch files are plain text, you can also:
-
-1. Click the file name in the table above.
-2. Click **Raw** to see the raw JSON.
-3. Select all (`Ctrl+A` / `Cmd+A`), copy, and paste into MusikBurk's **Load patch → Paste JSON** field.
+1. Click the file name, then **Raw** to see the plain JSON.
+2. Select all (`Ctrl+A` / `Cmd+A`), copy, and paste into MusikBurk's **Load patch → Paste JSON** field.
 
 ---
 
-## Reporting Issues
+## 🐛 Reporting Issues
 
-Found a bug or have a feature idea? Open an issue in the [Issues tab](https://github.com/anderzzz/musik_burk_data/issues). Please include your operating system and a short description of what happened.
+Found a bug or have a feature idea? Open an issue in the [Issues tab](https://github.com/anderzzz/musik_burk_data/issues). Include your operating system and a short description of what happened (or what you'd like to see).
