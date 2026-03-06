@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/anderzzz/musik_burk/main/site/assets/MusikBurk_full_logo_2.png" alt="MusikBurk" width="480">
+  <img src="_assets/MusikBurk_full_logo_2.png" alt="MusikBurk" width="480">
 </p>
 
 <p align="center">
